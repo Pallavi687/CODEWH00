@@ -29,7 +29,7 @@
 //       }
 //       document.getElementById("sample").innerHTML = "Today is " + day;
 //     }
-    // function factorial(n){
+  // function factorial(n){
     //   let answer = 1;
     //   if (n == 0 || n == 1){
     //     return answer;

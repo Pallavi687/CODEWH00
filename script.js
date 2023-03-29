@@ -142,14 +142,21 @@
 // WAP program to rotate the string 'w3resource' in right direction by 
 // periodically removing one letter from the end of the string and 
 // attaching it to the front.
- Function animation_string(id)
- {
-  let main= document.getElementById(id);
-  let textNode= main.children[0];
-  let text =textNode.data;
+//  function animation_string(id)
+//  {
+//   let main= document.getElementById(id);
+//   let textNode= main.children[0];
+//   let text =textNode.data;
  
- setInterval(()=>{
-  text =text[text.lenght - 1]+ text.substring(0,text.length-1);   
-  textNode.data=text;                    
- }100);
-}
+//  setInterval(()=>{
+//   text =text[text.lenght - 1]+ text.substring(0,text.length-1);   
+//   textNode.data=text;                    
+//  },10);
+// }
+// -----------------------------------------------------------------------
+ let a="pallavi";
+ let b=7;
+ console.log(a+b);
+// -------------------------------------------------------
+// (typeof(a+b)):-this is used to find whether the data type is like string int etc
+console.log(typeof(a+b)); 

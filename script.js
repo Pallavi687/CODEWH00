@@ -172,14 +172,47 @@
 // }
 // ----------------------------------------------------
 // WAP whether the number is divisible two or not
-let num= prompt("Enter your number ");
-if(num%2==0){
-  console.log("Number is divisible by two");
-}
-else if(num%3==0) 
-{
-  console.log("Number is divisible by three");
-} 
-  
+// let num= prompt("Enter your number ");
+// if(num%2==0){
+//   console.log("Number is divisible by two");
+// }
+// else if(num%3==0) 
+// {
+//   console.log("Number is divisible by three");
+// } 
+// ---------------------------------------------
+// WAP to print marks of a student in an object using for loop and for-in loop
+// let marks=
+// {
+//   Ram: 90,
+//   Shyam: 40,
+//   Lalit: 10
+// }
+  // for(let i=0;i<Object.key(marks).length;i++){
+  // console.log("The marks of"+Object.keys(marks)[i]+" are "+marks[Object.keys(marks)[i]]);
+// }
+// below code is by using for-in loop
+// for(let key in marks){
+//   console.log("The marks of " +key+ " are " + marks[key])
+// }
+// WAP to print correct number 
+// let correctnumber= 20;
+// let i;
+// while(i!=correctnumber){
+//   console.log("Please try again");
+//   i=prompt("please enter your nummber");
+// }
+// console.log("hey, you have entered correct number.");
+// WAP to print mean of 5 number.
 
+// const mean= (a,b, c,d)=>{
+//   return(a+b+c+d)/4
+// }
+// console.log(mean(20,22,24,25));
+// explore includes, startwith and endwith function of a string.
+// include()
+// let text="My faviorte car is BMW";
 
+// let result= text.includes("BMW", 19);
+// console.log(result);
+// stratwith()

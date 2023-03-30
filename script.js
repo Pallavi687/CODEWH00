@@ -154,9 +154,32 @@
 //  },10);
 // }
 // -----------------------------------------------------------------------
- let a="pallavi";
- let b=7;
- console.log(a+b);
-// -------------------------------------------------------
-// (typeof(a+b)):-this is used to find whether the data type is like string int etc
-console.log(typeof(a+b)); 
+//  let a="pallavi";
+//  let b=7;
+//  console.log(a+b);
+// // -------------------------------------------------------
+// // (typeof(a+b)):-this is used to find whether the data type is like string int etc
+// console.log(typeof(a+b)); 
+// ------------------------------------------------------
+// WAP to find age is lise between 10 and 20
+// let age= prompt("what is your age");
+// if(age>10 && age<20);
+// {
+//   console.log("your age lise between 10 and 20");
+// }
+// {
+//   console.log("your age not lise between 10 & 20");
+// }
+// ----------------------------------------------------
+// WAP whether the number is divisible two or not
+let num= prompt("Enter your number ");
+if(num%2==0){
+  console.log("Number is divisible by two");
+}
+else if(num%3==0) 
+{
+  console.log("Number is divisible by three");
+} 
+  
+
+

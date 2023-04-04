@@ -216,3 +216,57 @@
 // let result= text.includes("BMW", 19);
 // console.log(result);
 // stratwith()
+function func() {
+         
+  // Original string
+  var str = 'It is a great day.';
+   
+  // Checking the condition
+  var value = str.startsWith('It');
+  console.log(value);
+}
+func();
+// endswith()
+function fun(){
+  var str ='Enjoy every day.';
+  var value = str.endsWith('day');
+  console.log(value);
+}
+fun();
+// WAP to convert a given string to lowercase.
+function low(){
+  var str = 'Covert me lowercase and uppercase.'
+  var main = str.toLowerCase(str);
+  console.log(main);
+}
+{
+  var strs ="covert me "
+  var mainn = strs.toLocaleUpperCase('convert');
+  console.log(mainn);
+}
+low();
+// Wap to remove the some part of sentence,
+function rem()
+{
+  let stra = "please give me a ru. 20000.";
+  let amount = stra.slice('please give me a ru.'.length);
+  console.log(amount);
+}
+rem();
+// array quetions
+// create an array of number and take input from the user to add num to this array.
+function arr()
+{
+  const n =[1,2,3,4,5,6]
+  n.push(7,8,9,10);
+  console.log(n);
+}
+// second way
+{
+let ar =[1,2,3,4,5,6,7,8,9,10]
+let a=prompt("plz Enter number.")
+a=Number.parseInt(a)
+ar.push(a);
+console.log(ar);
+}
+arr(); 

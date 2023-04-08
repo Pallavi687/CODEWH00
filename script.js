@@ -255,18 +255,47 @@ function rem()
 rem();
 // array quetions
 // create an array of number and take input from the user to add num to this array.
-function arr()
-{
-  const n =[1,2,3,4,5,6]
-  n.push(7,8,9,10);
-  console.log(n);
-}
+// function arr()
+// {
+//   const n =[1,2,3,4,5,6]
+//   n.push(7,8,9,10);
+//   console.log(n);
+// }
 // second way
-{
-let ar =[1,2,3,4,5,6,7,8,9,10]
-let a=prompt("plz Enter number.")
-a=Number.parseInt(a)
-ar.push(a);
-console.log(ar);
-}
-arr(); 
+// {
+// let ar =[1,2,3,4,5,6,7,8,9,10]
+// let a=prompt("plz Enter number.")
+// a=Number.parseInt(a)
+// ar.push(a);
+// console.log(ar);
+// }
+// arr(); 
+// WAP keep adding number to the array in que(1) until 0 is added to the array.
+// let ar =[1,2,3,4,5,6,7,8,9,10]
+// let a;
+// do{
+// a=prompt("plz Enter number.")
+// a=Number.parseInt(a)
+// ar.push(a);
+// }
+// while(a !=0);
+// console.log(ar); 
+// WAP filter a num divisible by 10 from a given array.
+let ar =[1,20,3,40,5,60,7,80,9,110]
+let a =ar.filter((n)=>{
+  return n%10 ==0;
+})
+console.log(a);
+// WAP to create an arrary of square of given number.
+const m=[2,3,4,5,6]
+let o= m.map((x)=>{
+  return x*x;
+})
+console.log(o);
+// WAP reduce to calculate foctorial of a given number from an array of first n natural number.
+const q=[2,3,4,5,6]
+let p=q.reduce((x1,x2)=>{
+  return x1*x2;
+})
+console.log(p);
+// 

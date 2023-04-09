@@ -298,4 +298,30 @@ let p=q.reduce((x1,x2)=>{
   return x1*x2;
 })
 console.log(p);
-// 
+//WAP using prompt function to take input of age as a value from the user and use alert to tell him if he can drive.
+// let age = prompt("please enter your age");{
+// if(age>=18){
+//   console.log("Enjoy your driving");
+// }
+// else if(age<=18){
+// alert("driving is not safe for you");
+// console.log("you can't drive");
+// }
+// else(age<=-10)
+// {
+//   console.error("you enter negative number");
+// }
+// }
+// 2nd way
+let ae = prompt("Enter your age");
+ae= Number.parseInt(ae)
+const canDrive = ((ae)=>{
+  return ae>=18?true:false
+})
+if((canDrive(ae))){
+  alert("yes u can drive");
+}
+else{
+  alert("you cann't drive");
+}
+// WAP to change the url to google(Redirection)if user enter a number greater than 4.

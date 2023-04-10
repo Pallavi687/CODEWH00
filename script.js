@@ -313,15 +313,21 @@ console.log(p);
 // }
 // }
 // 2nd way
-let ae = prompt("Enter your age");
-ae= Number.parseInt(ae)
-const canDrive = ((ae)=>{
-  return ae>=18?true:false
-})
-if((canDrive(ae))){
-  alert("yes u can drive");
-}
-else{
-  alert("you cann't drive");
-}
+// let ae = prompt("Enter your age");
+// ae= Number.parseInt(ae)
+// const canDrive = ((ae)=>{
+//   return ae>=18?true:false
+// })
+// if((canDrive(ae))){
+//   alert("yes u can drive");
+// }
+// else{
+//   alert("you cann't drive");
+// }
 // WAP to change the url to google(Redirection)if user enter a number greater than 4.
+let number = prompt("Enter your number");
+number = Number.parseInt(number)
+if(number>4){
+  location.href ="https://google.com"
+}
+// change the background of the page to yellow , red or any other color based on user input through prompt.

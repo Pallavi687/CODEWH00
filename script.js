@@ -325,9 +325,11 @@ console.log(p);
 //   alert("you cann't drive");
 // }
 // WAP to change the url to google(Redirection)if user enter a number greater than 4.
-let number = prompt("Enter your number");
-number = Number.parseInt(number)
-if(number>4){
-  location.href ="https://google.com"
-}
+// let number = prompt("Enter your number");
+// number = Number.parseInt(number)
+// if(number>4){
+//   location.href ="https://google.com"
+// }
 // change the background of the page to yellow , red or any other color based on user input through prompt.
+let color = prompt("Please enter your color");
+document.body.style.background =color;

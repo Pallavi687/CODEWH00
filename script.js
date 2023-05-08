@@ -331,7 +331,8 @@ console.log(p);
 //   location.href ="https://google.com"
 // }
 // change the background of the page to yellow , red or any other color based on user input through prompt.
-// let color = prompt("Please enter your color");
+//  let color = prompt("Please enter your color");
 // document.body.style.background =color;
 // WAP create a navnbar and change the color the code of its frist element.
-document.getElementById("nav").firstElementChild.getElementsByClassName.color("pink")
+var navbar = document.getElementById("navbar");
+navbar.getElementsByTagName("li")[0].style.color = "red";
